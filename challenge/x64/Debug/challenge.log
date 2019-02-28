@@ -1,0 +1,19 @@
+﻿生成启动时间为 2018/10/16 9:50:42。
+     1>项目“C:\challenge\challenge\challenge.vcxproj”在节点 2 上(Build 个目标)。
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\challenge\x64\Debug\challenge.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\ffmpeg-win64-dev\lib" /LIBPATH:"C:\faac-1.28\libfaac\Debug" /LIBPATH:C:\ffmpeg_new\dev\lib swscale.lib avcodec.lib avutil.lib avformat.lib swresample.lib libfaac.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"C:\challenge\x64\Debug\challenge.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\challenge\x64\Debug\challenge.lib" /MACHINE:X64 x64\Debug\challenge.res
+         x64\Debug\challenge.obj
+         x64\Debug\challengeDlg.obj
+         x64\Debug\stdafx.obj
+     1>challengeDlg.obj : error LNK2019: 无法解析的外部符号 faacEncGetCurrentConfiguration，该符号在函数 "public: void __cdecl CchallengeDlg::OnBnClickedButtonencode(void)" (?OnBnClickedButtonencode@CchallengeDlg@@QEAAXXZ) 中被引用
+     1>challengeDlg.obj : error LNK2019: 无法解析的外部符号 faacEncSetConfiguration，该符号在函数 "public: void __cdecl CchallengeDlg::OnBnClickedButtonencode(void)" (?OnBnClickedButtonencode@CchallengeDlg@@QEAAXXZ) 中被引用
+     1>challengeDlg.obj : error LNK2019: 无法解析的外部符号 faacEncOpen，该符号在函数 "public: void __cdecl CchallengeDlg::OnBnClickedButtonencode(void)" (?OnBnClickedButtonencode@CchallengeDlg@@QEAAXXZ) 中被引用
+     1>challengeDlg.obj : error LNK2019: 无法解析的外部符号 faacEncEncode，该符号在函数 "public: void __cdecl CchallengeDlg::OnBnClickedButtonencode(void)" (?OnBnClickedButtonencode@CchallengeDlg@@QEAAXXZ) 中被引用
+     1>challengeDlg.obj : error LNK2019: 无法解析的外部符号 faacEncClose，该符号在函数 "public: void __cdecl CchallengeDlg::OnBnClickedButtonencode(void)" (?OnBnClickedButtonencode@CchallengeDlg@@QEAAXXZ) 中被引用
+     1>libcmtd.lib(wwincrt0.obj) : error LNK2019: 无法解析的外部符号 wWinMain，该符号在函数 __tmainCRTStartup 中被引用
+     1>C:\challenge\x64\Debug\challenge.exe : fatal error LNK1120: 6 个无法解析的外部命令
+     1>已完成生成项目“C:\challenge\challenge\challenge.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:03.06
