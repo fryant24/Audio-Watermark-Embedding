@@ -1,0 +1,6 @@
+embedInitialize
+embedInitializeWithHandlers
+embedTerminate
+embedPrintStackTrace
+mlxEmbed
+

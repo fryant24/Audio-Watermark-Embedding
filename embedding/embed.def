@@ -1,0 +1,8 @@
+LIBRARY embed
+EXPORTS
+embedInitialize
+embedInitializeWithHandlers
+embedTerminate
+embedPrintStackTrace
+mlxEmbed
+
